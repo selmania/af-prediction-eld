@@ -31,3 +31,8 @@ credentials.json
 .vscode/
 .idea/
 .DS_Store
+
+# Jupyter working files
+.virtual_documents/
+anaconda_projects/
+.ipynb_checkpoints/
