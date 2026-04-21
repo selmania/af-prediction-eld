@@ -1,0 +1,23 @@
+# Core
+numpy
+pandas
+scikit-learn
+
+# Modelling
+xgboost
+lightgbm
+
+# Explainability
+shap
+
+# Visualisation
+matplotlib
+seaborn
+
+# Notebooks
+jupyter
+ipykernel
+
+# Testing
+pytest
+ruff

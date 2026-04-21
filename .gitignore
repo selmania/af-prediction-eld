@@ -1,0 +1,33 @@
+# Data — NEVER commit real patient data, even pseudonymised
+data/raw/
+data/processed/
+*.csv
+*.parquet
+*.xlsx
+*.sqlite
+!data/synthetic/*.csv
+
+# Models and large artefacts
+models/*.pkl
+models/*.joblib
+*.h5
+*.pt
+*.onnx
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Secrets and environment
+.env
+*.key
+credentials.json
+
+# OS and IDE
+.vscode/
+.idea/
+.DS_Store
